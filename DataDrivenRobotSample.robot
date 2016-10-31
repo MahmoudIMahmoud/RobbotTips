@@ -15,13 +15,3 @@ Invalid User Name and Password    invalid          invalid
 Empty User Name                   ${EMPTY}         ${VALID PASSWORD}
 Empty Password                    ${VALID USER}    ${EMPTY}
 Empty User Name and Password      ${EMPTY}         ${EMPTY}
-    
-*** Test Cases ***
-Invalid Password
-    [Template]    Login with invalid credentials should fail
-    invalid          ${VALID PASSWORD}
-    ${VALID USER}    invalid
-    invalid          whatever
-    ${EMPTY}         ${VALID PASSWORD}
-    ${VALID USER}    ${EMPTY}
-    ${EMPTY}         ${EMPTY}
