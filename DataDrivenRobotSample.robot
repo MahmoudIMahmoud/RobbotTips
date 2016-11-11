@@ -16,3 +16,4 @@ Empty User Name                   ${EMPTY}         ${VALID PASSWORD}
 Empty Password                    ${VALID USER}    ${EMPTY}
 Empty User Name and Password      ${EMPTY}         ${EMPTY}
 log the var                       ${EMPTY}         ${varx}
+check the commit effect           commit           effect
