@@ -7,7 +7,7 @@ Login with invalid credentials should fail
 *** Variables ***
 ${VALID PASSWORD}        admin
 ${VALID USER}            admin
-
+${varx}                  0
 *** Test Cases ***                USERNAME         PASSWORD
 Invalid User Name                 invalid          ${VALID PASSWORD}
 Invalid Password                  ${VALID USER}    invalid
@@ -15,3 +15,4 @@ Invalid User Name and Password    invalid          invalid
 Empty User Name                   ${EMPTY}         ${VALID PASSWORD}
 Empty Password                    ${VALID USER}    ${EMPTY}
 Empty User Name and Password      ${EMPTY}         ${EMPTY}
+log the var                       ${EMPTY}         ${varx}
