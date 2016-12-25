@@ -15,4 +15,5 @@ And for robot use:
 ```Javascript
   Open Application unicodeKeyboard=True <rest of parameters>
 ```
-Yes it is just a capability setting ***unicodeKeyboard=True***.
+<br>***Yes*** it is just a capability setting ***unicodeKeyboard=True***.<br>
+[Source](http://appium.readthedocs.io/en/stable/en/writing-running-appium/unicode/)
